@@ -34,6 +34,12 @@ body {
     font-size: 18px;
 }
 
+.btn-home:hover {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
 .texto-home {
     font-size: 12px;
 }
@@ -48,20 +54,61 @@ body {
 }
 
 .section-title {
-    font-family: 'Pacifico', cursive;
+    font-family: 'inter', cursive;
 }
 
 #sobre {
     background-color: #EBEBEB;
 }
 
-#cardapio {
-    background-color: #ffeae6;
+.text-colored {
+    color: #b7a0fc;
 }
 
+.fundo-eventos-1 {
+    color: #111;
+    background-color: #fbc7fb;
+    border-radius: 0 0 10px 10px;
+}
 
-.text-colored {
-    color: orange;
+.fundo-eventos-2 {
+    color: #111;
+    background-color: #ffb597;
+    border-radius: 0 0 10px 10px;
+}
+
+.fundo-eventos-3 {
+    color: #111;
+    background-color: #90c69d;
+    border-radius: 0 0 10px 10px;
+}
+
+.imagem-eventos {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.swipe  {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.swipe:hover  {
+    text-decoration: underline;
+}
+
+/* serviços */
+.item-servicos {
+    background-color: #828282;
+}
+
+.item-servicos p {
+    color: #fff;
+}
+
+#cardapio {
+    background-color: #EBEBEB;
 }
 
 .nav-cardapio .nav-link.active,
