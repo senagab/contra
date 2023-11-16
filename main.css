@@ -88,12 +88,12 @@ h3 {
 }
 
 .text-colored {
-    color: #b7a0fc;
+    color: #9c81ec;
 }
 
 .fundo-eventos {
     color: #111;
-    background-color: #ede8f9; 
+    background-color: #e5dbff; 
     /* d5c7fe */
     border-radius: 0 0 10px 10px;
 }
@@ -266,6 +266,10 @@ h3 {
 
     .btn-fale-conosco {
         width: 100% !important;
+    }
+
+    .info-fale-conosco {
+        text-align: center;
     }
 }
 
