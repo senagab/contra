@@ -2,12 +2,22 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h3 {
+    font-family: 'PT serif', serif;
+    font-size: 20px;
+}
 .navbar {
     background-color: #EBEBEB;
 }
 
+.nav-link.active {
+    color: #fff !important;
+    background-color: #333 !important;
+}
+
 .nav-link {
     color: #333 !important;
+    background-color: transparent !important;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -43,13 +53,14 @@ body {
 }
 
 .btn-home:hover {
-    background-color: transparent;
+    background-color: #fff;
     color: #000;
-    border: 2px solid #000;
+    border: 3px solid #000;
 }
 
 .texto-home {
     font-size: 12px;
+    font-family: 'PT serif', serif;
 }
 
 .titulo-home {
@@ -117,8 +128,12 @@ h2 {
     background-color: #edeafa;
 }
 
-#cardapio {
-    background-color: #e8ebe1;
+.btn-serviços:hover {
+    background-color: #fff;
+}
+
+#services {
+    background-color: #EBEBEB;
 }
 
 #services .nav-link.active  {
@@ -148,7 +163,7 @@ h2 {
 @media (max-width: 767px) {
 
     .titulo-home {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .imagem-eventos {
@@ -158,5 +173,11 @@ h2 {
 
     .imagem-serviços {
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .titulo-home {
+        font-size: 65px;
     }
 }
