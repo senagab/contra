@@ -21,6 +21,14 @@ body {
     color: #fff;
 }
 
+.nav-cardapio button {
+    color: #333 !important;
+}
+
+.nav-cardapio button.active {
+    color: #fff !important;
+}
+
 .navbar-toggler {
     background-color: #fff;
 }
@@ -65,21 +73,14 @@ body {
     color: #b7a0fc;
 }
 
-.fundo-eventos-1 {
-    color: #111;
-    background-color: #fbc7fb;
-    border-radius: 0 0 10px 10px;
+h2 {
+    letter-spacing: .1rem;
 }
 
-.fundo-eventos-2 {
+.fundo-eventos {
     color: #111;
-    background-color: #ffb597;
-    border-radius: 0 0 10px 10px;
-}
-
-.fundo-eventos-3 {
-    color: #111;
-    background-color: #90c69d;
+    background-color: #ede8f9; 
+    /* d5c7fe */
     border-radius: 0 0 10px 10px;
 }
 
@@ -99,26 +100,40 @@ body {
 }
 
 /* serviços */
-.item-servicos {
-    background-color: #828282;
-}
 
 .item-servicos p {
     color: #fff;
 }
 
+.imagem-serviços {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-serviços {
+    width: 100%;
+    border-radius: 100px;
+    background-color: #edeafa;
+}
+
 #cardapio {
-    background-color: #EBEBEB;
+    background-color: #e8ebe1;
+}
+
+#services .nav-link.active  {
+    background-color: #333 !important;
+    color: #e0d6fe;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    color: #fff;
-    background-color: orange;
+    color: #333;
+    background-color: #e0d6fe;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: orange;
+    color: #b7a0fc;
 }
 
 .social-links li {
@@ -131,9 +146,17 @@ body {
 }
 
 @media (max-width: 767px) {
-    .carousel-item img {
-        height: 280px;
+
+    .titulo-home {
+        font-size: 80px;
     }
 
-    
+    .imagem-eventos {
+        height: 380px;
+    }
+
+
+    .imagem-serviços {
+        height: 300px;
+    }
 }
