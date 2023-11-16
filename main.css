@@ -159,8 +159,8 @@ h2 {
     color: #fff;
 }
 
-.social-links i {
-    color: #333;
+.social-links {
+    color: #fff !important;
 }
 
 .social-links li {
