@@ -2,22 +2,29 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h3 {
-    font-family: 'PT serif', serif;
-    font-size: 20px;
-}
 .navbar {
     background-color: #EBEBEB;
 }
 
+h2,
+.navbar {
+    letter-spacing: -.14rem;
+}
+
+h3 {
+    font-family: 'PT serif', serif;
+    font-size: 20px;
+}
+
 .nav-link.active {
     color: #fff !important;
-    background-color: #333 !important;
+    background-color: #9c81ec !important;
 }
 
 .nav-link {
     color: #333 !important;
     background-color: transparent !important;
+    border-radius: 100px !important;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -84,11 +91,6 @@ h3 {
     color: #b7a0fc;
 }
 
-h2,
-.navbar {
-    letter-spacing: -.14rem;
-}
-
 .fundo-eventos {
     color: #111;
     background-color: #ede8f9; 
@@ -132,7 +134,7 @@ h2,
 }
 
 .btn-serviços:hover {
-    background-color: #fff;
+    background-color: #b7a0fc;
 }
 
 #services {
@@ -176,10 +178,11 @@ h2,
 .btn-fale-conosco {
     width: 200px !important;
     border-radius: 100px;
+    background-color: #fff !important;
 }
 
 .btn-fale-conosco:hover {
-    background-color: #fff !important;
+    background-color: #b7a0fc !important;
 }
 
 @media (max-width: 767px) {
