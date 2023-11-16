@@ -185,6 +185,67 @@ h3 {
     background-color: #b7a0fc !important;
 }
 
+/* footer */
+
+.footer {
+    padding: 10em 2em;
+    background-color: #000;
+}
+
+.footer li {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.footer li a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.icones-footer:hover {
+    filter: brightness(0) invert(1);
+}
+
+.typewriter-effect {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.typewriter-effect > .text {
+    max-width: 0;
+    animation: typing 3s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter-effect::after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+}
+
+@keyframes typing {
+    75%,
+    100% {
+        max-width: calc(var(--characters) * 1ch);
+    }
+}
+
+@keyframes blink {
+    0%,
+    75%,
+    100% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+}
+
 @media (max-width: 767px) {
 
     .titulo-home {
@@ -195,13 +256,16 @@ h3 {
         height: 380px;
     }
 
-
     .imagem-serviços {
         height: 300px;
     }
 
     .nav-link {
         text-align: center !important;
+    }
+
+    .btn-fale-conosco {
+        margin: auto;
     }
 }
 
