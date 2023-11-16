@@ -34,16 +34,8 @@ h3 {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-link.active:hover {
     color: #fff;
-}
-
-.nav-cardapio button {
-    color: #333 !important;
-}
-
-.nav-cardapio button.active {
-    color: #fff !important;
 }
 
 .navbar-toggler {
@@ -83,7 +75,7 @@ h3 {
     font-family: 'inter', sans-serif;
 }
 
-#sobre {
+#about {
     background-color: #EBEBEB;
 }
 
@@ -91,14 +83,14 @@ h3 {
     color: #9c81ec;
 }
 
-.fundo-eventos {
+.fundo-team {
     color: #111;
     background-color: #e5dbff; 
     /* d5c7fe */
     border-radius: 0 0 10px 10px;
 }
 
-.imagem-eventos {
+.imagem-team {
     height: 300px;
     object-fit: cover;
     border-radius: 10px 10px 0 0 ;
@@ -115,25 +107,25 @@ h3 {
     color: #000;
 }
 
-/* serviços */
+/* services */
 
 .item-servicos p {
     color: #fff;
 }
 
-.imagem-serviços {
+.imagem-services {
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
 
-.btn-serviços {
+.btn-services {
     width: 100%;
     border-radius: 100px;
     background-color: #edeafa;
 }
 
-.btn-serviços:hover {
+.btn-services:hover {
     background-color: #b7a0fc;
 }
 
@@ -146,18 +138,18 @@ h3 {
     color: #e0d6fe;
 }
 
-.nav-cardapio .nav-link.active,
-#fale-conosco button {
+.nav-link.active,
+#contact button {
     color: #333;
     background-color: #e0d6fe;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-link:hover {
     color: #b7a0fc;
 }
 
 /* fale conosco */
-#fale-conosco {
+#contact {
     background-color: #111;
     color: #fff;
 }
@@ -175,13 +167,13 @@ h3 {
     text-decoration: none;
 }
 
-.btn-fale-conosco {
+.btn-contact {
     width: 200px !important;
     border-radius: 100px;
     background-color: #fff !important;
 }
 
-.btn-fale-conosco:hover {
+.btn-contact:hover {
     background-color: #b7a0fc !important;
 }
 
@@ -205,8 +197,16 @@ h3 {
     text-transform: uppercase;
 }
 
+.footer span {
+    color: #666;
+}
+
+.icones-footer {
+    color: #666 !important;
+}
+
 .icones-footer:hover {
-    filter: brightness(0) invert(1);
+    color: #fff;
 }
 
 .typewriter-effect {
@@ -227,6 +227,11 @@ h3 {
     content: " |";
     animation: blink 1s infinite;
     animation-timing-function: step-end;
+}
+
+.quebra-linha {
+    content: ' ';
+    display: block;
 }
 
 @keyframes typing {
@@ -253,11 +258,11 @@ h3 {
         font-size: 60px;
     }
 
-    .imagem-eventos {
+    .imagem-team {
         height: 380px;
     }
 
-    .imagem-serviços {
+    .imagem-services {
         height: 300px;
     }
 
@@ -265,11 +270,11 @@ h3 {
         text-align: center !important;
     }
 
-    .btn-fale-conosco {
+    .btn-contact {
         width: 100% !important;
     }
 
-    .info-fale-conosco {
+    .info-contact {
         text-align: center;
     }
 }
