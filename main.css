@@ -104,10 +104,12 @@ h2 {
 .swipe  {
     font-size: 13px;
     cursor: pointer;
+    text-decoration: underline;
+    color: #333;
 }
 
-.swipe:hover  {
-    text-decoration: underline;
+.swipe:hover {
+    color: #000;
 }
 
 /* serviços */
@@ -151,6 +153,16 @@ h2 {
     color: #b7a0fc;
 }
 
+/* fale conosco */
+#fale-conosco {
+    background-color: #111;
+    color: #fff;
+}
+
+.social-links i {
+    color: #333;
+}
+
 .social-links li {
     list-style: none;
     display: inline;
@@ -158,6 +170,15 @@ h2 {
 
 .social-links a {
     text-decoration: none;
+}
+
+.btn-fale-conosco {
+    width: 200px !important;
+    border-radius: 100px;
+}
+
+.btn-fale-conosco:hover {
+    background-color: #fff !important;
 }
 
 @media (max-width: 767px) {
@@ -174,10 +195,19 @@ h2 {
     .imagem-serviços {
         height: 300px;
     }
+
+    .nav-link {
+        text-align: center !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
     .titulo-home {
         font-size: 65px;
+    }
+
+    .nav-link {
+        text-align: center !important;
     }
 }
