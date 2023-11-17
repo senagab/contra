@@ -7,22 +7,24 @@ $(document).ready(function() {
         rules: { /* regras se aplicam aos inputs com propriedade nome*/
             nome: {
                 required: true,
-                maxlength: 10
+                maxlength: 60
             },
             email: {
                 required: true,
-                email: true
+                email: true,
+                maxlength: 60
             },
             mensagem: {
-                required: true
+                required: true,
+                maxlength: 100
             }
         },
         messages: { /* edição da mensagem para nome */
-            nome: 'Please insert your name'
+            nome: 'Insert name (limit of 60 characters)'
         },
         submitHandler: function(form) {
             console.log(form);
-            alert('Sent successfully!')
+            alert('Sent!')
             form.reset();
         },
         invalidHandler: function(evento, validador) {
