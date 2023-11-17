@@ -6,14 +6,15 @@ $(document).ready(function() {
     $('form').validate({
         rules: { /* regras se aplicam aos inputs com propriedade nome*/
             nome: {
-                required: true
+                required: true,
+                maxlength: 10
             },
             email: {
                 required: true,
                 email: true
             },
             mensagem: {
-                required: true,
+                required: true
             }
         },
         messages: { /* edição da mensagem para nome */

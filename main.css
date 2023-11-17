@@ -6,9 +6,16 @@ body {
     background-color: #EBEBEB;
 }
 
-h2,
-.navbar {
+.navbar-toggler {
+    color: white !important;
+}
+
+h2 {
     letter-spacing: -.14rem;
+}
+
+.navbar {
+    letter-spacing: -.05rem;
 }
 
 h3 {
