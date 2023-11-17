@@ -206,7 +206,7 @@ h3 {
 }
 
 .icones-footer:hover {
-    color: #fff;
+    color: #fff !important;
 }
 
 .typewriter-effect {
