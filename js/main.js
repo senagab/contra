@@ -20,7 +20,9 @@ $(document).ready(function() {
             nome: 'Por favor insira seu nome'   
         },
         submitHandler: function(form) {
-            console.log(form)
+            console.log(form);
+            alert('enviado com sucesso!')
+            form.reset();
         },
         invalidHandler: function(evento, validador) {
             let camposIncorretos = validador.numberOfInvalids();
