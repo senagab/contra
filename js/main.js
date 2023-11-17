@@ -17,17 +17,17 @@ $(document).ready(function() {
             }
         },
         messages: { /* edição da mensagem para nome */
-            nome: 'Por favor insira seu nome'   
+            nome: 'Please insert your name'
         },
         submitHandler: function(form) {
             console.log(form);
-            alert('enviado com sucesso!')
+            alert('Sent successfully!')
             form.reset();
         },
         invalidHandler: function(evento, validador) {
             let camposIncorretos = validador.numberOfInvalids();
             if (camposIncorretos) {
-                alert(`existem ${camposIncorretos} campos incorretos`)
+                alert(`There are ${camposIncorretos} incorrect fields`)
             }
         }
     })
