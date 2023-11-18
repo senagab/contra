@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     
-    $('#telefone').mask('(00) 00000-0000')
+    $('#telefone').mask('(000) 000-0000')
 
     $('form').validate({
         rules: { /* regras se aplicam aos inputs com propriedade nome*/
