@@ -14,13 +14,16 @@ $(document).ready(function() {
                 email: true,
                 maxlength: 60
             },
+            telefone: {
+                maxlength: 15
+            },
             mensagem: {
                 required: true,
                 maxlength: 100
             }
         },
         messages: { /* edição da mensagem para nome */
-            nome: 'Insert name (limit of 60 characters)'
+            nome: 'Please enter your name (Please enter no more than 60 characters)'
         },
         submitHandler: function(form) {
             console.log(form);
