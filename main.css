@@ -227,7 +227,7 @@ h3 {
     animation: typing 3s steps(var(--characters)) infinite;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 12px;
+    font-size: .6em;
 }
 
 .typewriter-effect::after {
