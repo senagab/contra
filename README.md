@@ -35,6 +35,3 @@ The portfolio is designed to be compatible with modern web environments and can 
 - **SEO Enhancements**: Additional meta tags and structured data for improved search engine visibility.
 - **Expanded Service Pages**: Deep-dive into case studies and past work to give prospective clients more insight into the impact of **Contra’s** services.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
