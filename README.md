@@ -1,5 +1,9 @@
 # Contra | Advertisement
 
+<p align="right">
+  <img src="https://img.shields.io/badge/javascript-9c81ec" alt="Javascript Vanilla">
+</p>
+
 ## Overview
 Welcome to the **Contra**, showcasing innovative approaches to advertising and brand visibility. This project highlights **Contra’s** expertise in redefining how brands stand out, with a track record of empowering over 2,000 clients since 2003.
 
