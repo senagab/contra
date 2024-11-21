@@ -38,7 +38,3 @@ This website demonstrates **Contra’s** creative capabilities, with a clean, mo
 ## Deployment
 The portfolio is designed to be compatible with modern web environments and can be deployed on any standard web hosting service. Ensure that external dependencies like Bootstrap and Google Fonts are correctly linked for optimal performance.
 
-## Future Improvements
-- **SEO Enhancements**: Additional meta tags and structured data for improved search engine visibility.
-- **Expanded Service Pages**: Deep-dive into case studies and past work to give prospective clients more insight into the impact of **Contra’s** services.
-
