@@ -1,6 +1,6 @@
 # Contra | Advertisement
 
-<p align="left">
+<p align="right">
   <img src="https://img.shields.io/badge/javascript-9c81ec" alt="Javascript Vanilla">
   <img src="https://img.shields.io/badge/html-red" alt="HTML">  
   <img src="https://img.shields.io/badge/css-blue" alt="CSS">  
