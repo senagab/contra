@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/javascript-9c81ec" alt="Javascript Vanilla">
   <img src="https://img.shields.io/badge/html-red" alt="HTML">  
   <img src="https://img.shields.io/badge/css-blue" alt="CSS">  
-  <img src="https://img.shields.io/badge/bootstrap-v5.3.2-yellow" alt="Bootstrap"> 
+  <img src="https://img.shields.io/badge/bootstrap-v5.3.2-yellow?labelColor=white" alt="Bootstrap"> 
 </p>
 
 ## Overview
